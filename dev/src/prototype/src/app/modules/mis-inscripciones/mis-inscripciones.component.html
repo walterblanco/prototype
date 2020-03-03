@@ -1,0 +1,120 @@
+
+<div class="pantalla">
+
+    <div class="inscripcion">
+        <div class="contenidoInscripcion">
+            <div class="titulo">Prosecretaría de Inserción Laboral  </div>
+            <div class="bajada">Si sos estudiante y/o graduado de la Facultad de Ciencias Económicas de la UNLP, <br> podes acceder a una Pasantía o Empleo, realizando tu inscripción a través de nuestro Sistema. </div>
+            <button mat-raised-button routerLink="/sistema/inscripciones/crear" class="btnIscripcion">INSCRIBIRME</button>
+
+        </div>
+    </div>
+
+    <div class="contenedorInscripciones">
+
+
+        <div class="tituloInscripciones">
+            <i class="material-icons"> arrow_downward </i> Mis Inscripciones
+            
+        </div>
+
+        <div class="inscripciones">
+
+            <mat-card class="example-card slide-top mat-elevation-z8">
+                    <mat-card-header>
+                        
+                      <div mat-card-avatar class="example-header-image"></div>
+                      <mat-card-title>JOVENES PROFESIONALES</mat-card-title>
+                      <mat-card-subtitle>Fecha de Inscripción: 21/11/2019</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                        
+                        <p>
+                           Recuerda mantener tus datos actualizados  
+                        </p>
+                            <mat-divider></mat-divider>
+
+
+                    </mat-card-content>
+                    <mat-card-actions>
+                      <button mat-raised-button>ELIMINAR</button>
+                      <button mat-button>EXTENDER INSCRIPCIÓN</button>
+                    </mat-card-actions>
+            </mat-card>
+
+            <mat-card class="example-card slide-top mat-elevation-z8">
+                    <mat-card-header>
+                        
+                      <div mat-card-avatar class="example-header-image"></div>
+                      <mat-card-title>FULL-TIME
+                        </mat-card-title>
+                      <mat-card-subtitle>Fecha de Inscripción: 21/11/2019</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                        
+                        <p>
+                           Recuerda mantener tus datos actualizados  
+                        </p>
+                            <mat-divider></mat-divider>
+
+
+                    </mat-card-content>
+                    <mat-card-actions>
+                      <button mat-raised-button>ELIMINAR</button>
+                      <button mat-button>EXTENDER INSCRIPCIÓN</button>
+                    </mat-card-actions>
+            </mat-card>
+
+            <mat-card class="example-card slide-top mat-elevation-z8">
+                    <mat-card-header>
+                        
+                      <div mat-card-avatar class="example-header-image"></div>
+                      <mat-card-title>JOVENES PROFESIONALES</mat-card-title>
+                      <mat-card-subtitle>Fecha de Inscripción: 21/11/2019</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                        
+                        <p>
+                           Recuerda mantener tus datos actualizados  
+                        </p>
+                            <mat-divider></mat-divider>
+
+
+                    </mat-card-content>
+                    <mat-card-actions>
+                      <button mat-raised-button>ELIMINAR</button>
+                      <button mat-button>EXTENDER INSCRIPCIÓN</button>
+                    </mat-card-actions>
+            </mat-card>
+
+        </div>
+
+    </div>
+     
+    <!-- <div class="contenedorTabla mat-elevation-z8">
+ 
+        <mat-table matSort [dataSource]="inscripciones$ | async" multiTemplateDataRows >
+
+            <ng-container matColumnDef="fecha" >
+                <mat-header-cell *matHeaderCellDef > Fecha </mat-header-cell>
+                <mat-cell *matCellDef="let n" > {{n.fecha_inscripcion | date: 'dd/MM/yyyy'}}</mat-cell>  
+            </ng-container>
+            
+            <ng-container matColumnDef="oferta" >
+                <mat-header-cell mat-sort-header *matHeaderCellDef > Inscripto en </mat-header-cell>
+                <mat-cell *matCellDef="let n" > {{n.oferta}} </mat-cell>  
+            </ng-container>
+    
+            <ng-container matColumnDef="acciones" >
+                <mat-header-cell mat-sort-header *matHeaderCellDef > Acciones </mat-header-cell>
+                <mat-cell *matCellDef="let n" ><button mat-icon-button (click)="eliminar(inscripcion)"><mat-icon>delete_outline</mat-icon></button></mat-cell>  
+                </ng-container>
+            
+            <mat-header-row *matHeaderRowDef="columnas()"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: columnas();"></mat-row>        
+            
+        </mat-table>
+
+    </div> -->
+
+</div>
