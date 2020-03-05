@@ -12,9 +12,9 @@ export const environment = {
   version: '0.0.1a',
 
   loader: {
-    cabecera: 'Inserción Laboral',
+    cabecera: 'Cuenta FCE',
     version: '0.0.1a',
-    tituloSistema: 'INSERCION LABORAL',
+    tituloSistema: 'Cuenta FCE',
     subtituloSistema: '',
     desarrolloSistema: 'DiTeSI | Dirección de Tecnologías y Sistemas Informáticos',
     logoSistema: '/assets/img/fce/logofce2018.png',
